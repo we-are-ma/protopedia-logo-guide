@@ -28,7 +28,7 @@ export default defineNuxtConfig({
       const filesToDelete = ['200.html', '404.html']
       
       filesToDelete.forEach(file => {
-        const filePath = path.join(process.cwd(), '.output', 'public', 'protopedia-logo-guide', file)
+        const filePath = path.join(process.cwd(), '.output', 'public', file)
         console.log(`Checking file: ${filePath}`)
         if (fs.existsSync(filePath)) {
           try {
