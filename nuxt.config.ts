@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     host: '0.0.0.0',
   },
   // Generate static site
-  ssr: false,
+  ssr: true,
   nitro: {
     prerender: {
       crawlLinks: true,
@@ -50,7 +50,7 @@ export default defineNuxtConfig({
     forced: true,
   },
   app: {
-    cdnURL: './',
+    cdnURL: '/',
     head: {
       link: [
         {
