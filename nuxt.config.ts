@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     host: '0.0.0.0',
   },
   // Generate static site
-  ssr: true,
+  ssr: false,
   nitro: {
     prerender: {
       crawlLinks: true,
@@ -50,9 +50,6 @@ export default defineNuxtConfig({
     forced: true,
   },
   app: {
-    router: {
-      base: '/protopedia-logo-guide/'
-    },
     cdnURL: './',
     head: {
       link: [
