@@ -50,6 +50,9 @@ export default defineNuxtConfig({
     forced: true,
   },
   app: {
+    router: {
+      base: '/protopedia-logo-guide/'
+    },
     cdnURL: './',
     head: {
       link: [
