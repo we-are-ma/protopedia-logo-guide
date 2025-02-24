@@ -66,6 +66,12 @@ export default defineNuxtConfig({
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap'
         }
+      ],
+      script: [
+        {
+          src: '/libs/iframe-resizer/js/iframeResizer.contentWindow.min.js',
+          defer: true
+        }
       ]
     }
   },
