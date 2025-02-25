@@ -81,8 +81,7 @@
           .font-bold.text-gray(class="text-[15px]")
             | ロゴタイプ
           .download-text-area.flex.gap-4
-            PartsAnchor(href="#") Illustrator(.ai)版
-            PartsAnchor(href="#") PNG版
+            PartsAnchor(href="logo.zip") ダウンロード
       .logo-B.w-full.flex.flex-col.justify-between(class="md:w-1/2")
         PartsBox.w-full.p-12.mb-3(class="h-[247px]")
           img.w-full.h-auto.object-contain(
@@ -97,8 +96,7 @@
           .font-bold.text-gray(class="text-[15px]")
             | スクエアタイプ（シンボルマーク）
           .download-text-area.flex.gap-4
-            PartsAnchor(href="#") Illustrator(.ai)版
-            PartsAnchor(href="#") PNG版
+            PartsAnchor(href="square.zip") ダウンロード
   section
     PartsH2.mb-3 ProtoPedia ロゴ使用ガイドライン
     PartsH3(class="!mt-3") ブランドカラーとロゴの表示色
