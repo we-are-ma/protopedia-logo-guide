@@ -221,7 +221,7 @@
           height="37"
           loading="lazy"
         )
-        template(#caption) 傾斜や回転させて使用してはいけない
+        template(#caption) 影をつけてはならない
       ImageBox
         img(
           src="@/assets/images/logo-not-D@3x.png"
